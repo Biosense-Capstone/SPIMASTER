@@ -5,22 +5,22 @@
 SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
+CPP_SRCS += \
+../main_tirtos.cpp \
+../spimaster.cpp 
+
 CMD_SRCS += \
 ../CC1350_LAUNCHXL_TIRTOS.cmd 
 
 C_SRCS += \
 ../CC1350_BIOSENSE_HEADSET.c \
 ../CC1350_LAUNCHXL_fxns.c \
-../ccfg.c \
-../main_tirtos.c \
-../spimaster.c 
+../ccfg.c 
 
 C_DEPS += \
 ./CC1350_BIOSENSE_HEADSET.d \
 ./CC1350_LAUNCHXL_fxns.d \
-./ccfg.d \
-./main_tirtos.d \
-./spimaster.d 
+./ccfg.d 
 
 OBJS += \
 ./CC1350_BIOSENSE_HEADSET.obj \
@@ -28,6 +28,10 @@ OBJS += \
 ./ccfg.obj \
 ./main_tirtos.obj \
 ./spimaster.obj 
+
+CPP_DEPS += \
+./main_tirtos.d \
+./spimaster.d 
 
 OBJS__QUOTED += \
 "CC1350_BIOSENSE_HEADSET.obj" \
@@ -39,15 +43,19 @@ OBJS__QUOTED += \
 C_DEPS__QUOTED += \
 "CC1350_BIOSENSE_HEADSET.d" \
 "CC1350_LAUNCHXL_fxns.d" \
-"ccfg.d" \
+"ccfg.d" 
+
+CPP_DEPS__QUOTED += \
 "main_tirtos.d" \
 "spimaster.d" 
 
 C_SRCS__QUOTED += \
 "../CC1350_BIOSENSE_HEADSET.c" \
 "../CC1350_LAUNCHXL_fxns.c" \
-"../ccfg.c" \
-"../main_tirtos.c" \
-"../spimaster.c" 
+"../ccfg.c" 
+
+CPP_SRCS__QUOTED += \
+"../main_tirtos.cpp" \
+"../spimaster.cpp" 
 
 

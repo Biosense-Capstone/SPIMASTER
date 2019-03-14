@@ -171,7 +171,8 @@ spimaster_CC1350_BIOSENSE_HEADBAND_tirtos_ccs.hex: $(EXE_OUTPUTS)
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
 	-$(RM) "CC1350_BIOSENSE_HEADSET.obj" "CC1350_LAUNCHXL_fxns.obj" "ccfg.obj" "main_tirtos.obj" "spimaster.obj" 
-	-$(RM) "CC1350_BIOSENSE_HEADSET.d" "CC1350_LAUNCHXL_fxns.d" "ccfg.d" "main_tirtos.d" "spimaster.d" 
+	-$(RM) "CC1350_BIOSENSE_HEADSET.d" "CC1350_LAUNCHXL_fxns.d" "ccfg.d" 
+	-$(RM) "main_tirtos.d" "spimaster.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

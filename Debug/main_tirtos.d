@@ -1,6 +1,10 @@
 # FIXED
 
-main_tirtos.obj: ../main_tirtos.c
+main_tirtos.obj: ../main_tirtos.cpp
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stdint.h
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__config
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__config_site
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__libcxx_extra.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdint.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/stdint.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/cdefs.h
@@ -10,7 +14,9 @@ main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machin
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_stdint.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/pthread.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/sys/types.h
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stddef.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stddef.h
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__nullptr
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/sys/_internal.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/../include/time.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/_ti_config.h
@@ -18,6 +24,7 @@ main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/linkag
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/abi_prefix.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/xlocale/_time.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/time.h
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stddef.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/signal.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/../include/signal.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/../include/sys/timespec.h
@@ -26,6 +33,7 @@ main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/sche
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/sysbios/BIOS.h
 main_tirtos.obj: C:/ti/xdctools_3_51_01_18_core/packages/xdc/std.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdarg.h
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stddef.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/targets/arm/elf/std.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/targets/arm/elf/M3.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/targets/std.h
@@ -83,6 +91,7 @@ main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/t
 main_tirtos.obj: ../Board.h
 main_tirtos.obj: ../CC1350_BIOSENSE_HEADSET.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/PIN.h
+main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stdbool.h
 main_tirtos.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdbool.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0/driverlib/ioc.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0/driverlib/../inc/hw_types.h
@@ -99,7 +108,11 @@ main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0/driverlib/gpio.h
 main_tirtos.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0/driverlib/../inc/hw_gpio.h
 
-../main_tirtos.c: 
+../main_tirtos.cpp: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__config: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__config_site: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__libcxx_extra.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdint.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/stdint.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/cdefs.h: 
@@ -109,7 +122,9 @@ C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/machine/_stdint.h:
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/sys/_stdint.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/pthread.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/sys/types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stddef.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stddef.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/__nullptr: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/sys/_internal.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/../include/time.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/_ti_config.h: 
@@ -117,6 +132,7 @@ C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/linkage.h:
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/abi_prefix.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/xlocale/_time.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/time.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stddef.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/signal.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/../include/signal.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/../include/sys/timespec.h: 
@@ -125,6 +141,7 @@ C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/posix/ccs/sched.h:
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/sysbios/BIOS.h: 
 C:/ti/xdctools_3_51_01_18_core/packages/xdc/std.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdarg.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stddef.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/targets/arm/elf/std.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/targets/arm/elf/M3.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/targets/std.h: 
@@ -182,6 +199,7 @@ C:/ti/simplelink_cc13x0_sdk_2_40_00_20/kernel/tirtos/packages/ti/sysbios/package
 ../Board.h: 
 ../CC1350_BIOSENSE_HEADSET.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/PIN.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/libcxx/stdbool.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include/stdbool.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0/driverlib/ioc.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/devices/cc13x0/driverlib/../inc/hw_types.h: 

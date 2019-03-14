@@ -297,7 +297,7 @@ const DisplayUart_HWAttrs displayUartHWAttrs = {
     .strBuf       = uartStringBuf,
     .strBufLen    = BOARD_DISPLAY_UART_STRBUF_SIZE,
 };
-#endif
+
 const DisplaySharp_HWAttrsV1 displaySharpHWattrs = {
     .spiIndex    = CC1350_BIOSENSE_HEADSET_SPI2_TFT,
     .csPin       = CC1350_BIOSENSE_HEADSET_GPIO_LCD_CS,
@@ -307,6 +307,7 @@ const DisplaySharp_HWAttrsV1 displaySharpHWattrs = {
     .pixelHeight = BOARD_DISPLAY_SHARP_SIZE,
     .displayBuf  = sharpDisplayBuf,
 };
+#endif
 
 #ifdef BOARD_DISPLAY_USE_UART
 #define BOARD_DISPLAY_USE_UART 0
@@ -370,12 +371,8 @@ const uint_least8_t Display_count = 0;
  *       reduce memory usage.
  */
 GPIO_PinConfig gpioPinConfigs[] = {
-    // TODO:
-    GPIOCC26XX_DIO_15 | GPIO_DO_NOT_CONFIG,  /* CC1350_BIOSENSE_HEADSET_SPI_MASTER_READY */
-    GPIOCC26XX_DIO_21 | GPIO_DO_NOT_CONFIG,  /* CC1350_BIOSENSE_HEADSET_SPI_SLAVE_READY */
-
     /* Output pins */
-    GPIOCC26XX_DIO_07 | GPIO_DO_NOT_CONFIG,  /* Green LED */
+    CC1350_BIOSENSE_HEADSET_LED1 | GPIO_DO_NOT_CONFIG,  /* Green LED */
     CC1350_BIOSENSE_HEADSET_SW_PWR | GPIO_DO_NOT_CONFIG,  /* TMP116_EN */
 
     /* SPI MPU CSN */
@@ -386,7 +383,8 @@ GPIO_PinConfig gpioPinConfigs[] = {
     CC1350_BIOSENSE_HEADSET_TFTCS | GPIO_DO_NOT_CONFIG, /* SPI chip select */
     CC1350_BIOSENSE_HEADSET_TFTRST | GPIO_DO_NOT_CONFIG, /* LCD power control */
     // TODO:
-    GPIOCC26XX_DIO_23 | GPIO_DO_NOT_CONFIG, /*LCD enable */
+    //GPIOCC26XX_DIO_23 | GPIO_DO_NOT_CONFIG, /*LCD enable */
+    CC1350_BIOSENSE_HEADSET_DC | GPIO_DO_NOT_CONFIG,
 
 };
 
@@ -476,6 +474,7 @@ const uint_least8_t I2C_count = CC1350_BIOSENSE_HEADSET_I2CCOUNT;
 /*
  *  =============================== NVS ===============================
  */
+#ifdef NEEDED
 #include <ti/drivers/NVS.h>
 #include <ti/drivers/nvs/NVSSPI25X.h>
 #include <ti/drivers/nvs/NVSCC26XX.h>
@@ -584,7 +583,7 @@ const NVS_Config NVS_config[CC1350_BIOSENSE_HEADSET_NVSCOUNT] = {
 };
 
 const uint_least8_t NVS_count = CC1350_BIOSENSE_HEADSET_NVSCOUNT;
-
+#endif
 /*
  *  =============================== PIN ===============================
  */
@@ -765,13 +764,13 @@ const SPICC26XXDMA_HWAttrsV1 spiCC26XXDMAHWAttrs[CC1350_BIOSENSE_HEADSET_SPICOUN
 const SPI_Config SPI_config[CC1350_BIOSENSE_HEADSET_SPICOUNT] = {
     {
          .fxnTablePtr = &SPICC26XXDMA_fxnTable,
-         .object      = &spiCC26XXDMAObjects[CC1350_BIOSENSE_HEADSET_SPI0_MPU],
-         .hwAttrs     = &spiCC26XXDMAHWAttrs[CC1350_BIOSENSE_HEADSET_SPI0_MPU]
+         .object      = &spiCC26XXDMAObjects[CC1350_BIOSENSE_HEADSET_SPI0],
+         .hwAttrs     = &spiCC26XXDMAHWAttrs[CC1350_BIOSENSE_HEADSET_SPI0]
     },
     {
          .fxnTablePtr = &SPICC26XXDMA_fxnTable,
-         .object      = &spiCC26XXDMAObjects[CC1350_BIOSENSE_HEADSET_SPI1_BMP],
-         .hwAttrs     = &spiCC26XXDMAHWAttrs[CC1350_BIOSENSE_HEADSET_SPI1_BMP]
+         .object      = &spiCC26XXDMAObjects[CC1350_BIOSENSE_HEADSET_SPI1],
+         .hwAttrs     = &spiCC26XXDMAHWAttrs[CC1350_BIOSENSE_HEADSET_SPI1]
     },
 };
 

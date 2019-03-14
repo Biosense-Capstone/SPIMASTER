@@ -52,9 +52,6 @@ CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/dr
 CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/dpl/ClockP.h
 CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/Power.h
 CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/utils/List.h
-CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/NVS.h
-CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/nvs/NVSSPI25X.h
-CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/nvs/NVSCC26XX.h
 CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/pin/PINCC26XX.h
 CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/PWM.h
 CC1350_BIOSENSE_HEADSET.obj: C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/pwm/PWMTimerCC26XX.h
@@ -122,9 +119,6 @@ C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/power/PowerCC26XX.h:
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/dpl/ClockP.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/Power.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/utils/List.h: 
-C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/NVS.h: 
-C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/nvs/NVSSPI25X.h: 
-C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/nvs/NVSCC26XX.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/pin/PINCC26XX.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/PWM.h: 
 C:/ti/simplelink_cc13x0_sdk_2_40_00_20/source/ti/drivers/pwm/PWMTimerCC26XX.h: 
